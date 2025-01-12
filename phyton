@@ -1,0 +1,38 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the dataset
+# Replace 'data.csv' with the path to your dataset
+df = pd.read_csv('data.csv')
+
+# Display the first few rows of the dataset
+print("First few rows of the dataset:")
+print(df.head())
+
+# Get summary statistics of the dataset
+print("\nSummary statistics:")
+print(df.describe())
+
+# Check for missing values
+print("\nMissing values in each column:")
+print(df.isnull().sum())
+
+# Drop rows with missing values (optional)
+df_clean = df.dropna()
+
+# Generate a correlation matrix
+print("\nCorrelation matrix:")
+print(df_clean.corr())
+
+# Visualize the data (example: histogram of a specific column)
+column = 'example_column'  # Replace with the column you want to visualize
+plt.hist(df_clean[column], bins=30)
+plt.title(f'Histogram of {column}')
+plt.xlabel(column)
+plt.ylabel('Frequency')
+plt.show()
+
+# Additional analysis (example: group by a specific column and calculate mean)
+grouped_data = df_clean.groupby('example_group_column').mean()  # Replace with your group column
+print("\nGrouped data by example_group_column and calculated mean:")
+print(grouped_data)
