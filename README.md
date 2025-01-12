@@ -1,16 +1,14 @@
-## Hi there 👋
+# Simple Web App
 
-<!--
-**kkkkKKeeyyyYYYYY/kkkkKKeeyyyYYYYY** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Description
+This is a simple web app created using HTML, CSS, and JavaScript. It includes a button that, when clicked, displays an alert message.
 
-Here are some ideas to get you started:
+## Features
+- Responsive design
+- Interactive button
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/repository-name.git
+   
