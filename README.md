@@ -10,5 +10,5 @@ This is a simple web app created using HTML, CSS, and JavaScript. It includes a 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/ALJHONQ/kkkkKKeeyyyYYYYY.git
    
